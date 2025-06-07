@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325264368940",
+    "project_id": "hirejack-7617a",
+    "storage_bucket": "hirejack-7617a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325264368940:android:2155125450ba01aba9b889",
+        "android_client_info": {
+          "package_name": "com.example.hirejacks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HYXahzH9Pwwsn-aGvfkRO6GNpuGYK5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
