@@ -11,7 +11,11 @@
         android:id="@+id/userDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Info Here" />
+        android:text="User Info Here"
+        app:layout_constraintBottom_toTopOf="@+id/signIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
@@ -20,8 +24,9 @@
         android:layout_height="wrap_content"
         android:text="Sign In"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="155dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/signOut"

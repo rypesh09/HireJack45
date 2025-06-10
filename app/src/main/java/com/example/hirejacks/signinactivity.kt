@@ -4,15 +4,21 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.hirejacks.databinding.ActivitySignInBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class signinactivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySignInBinding
+    private lateinit var firebaseAuth: FirebaseAuth
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityLoginBinding.inflate(layoutInflater)
+        val binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = "Register"
+        firebaseAuth = FirebaseAuth.getInstance()
 
 
 
